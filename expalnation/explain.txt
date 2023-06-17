@@ -1,0 +1,5 @@
+--- the reason we changed from index.html to php is because we want to work directly from the server
+--- open the terminal first and tpye a code then execute php -S localhost:8000 and coppy new link that you will use to open home page from browser
+
+
+--- INSERT INTO products (product_name,product_category,product_description,product_image,product_image2,product_image3,product_image4,product_price,product_special_offer,product_color) VALUES ('All Breaks','shocks','original one of a kind shocks','shock1.jpeg','shock1.jpeg','shock1.jepg','shock1.jpeg',100000,0,'white');
