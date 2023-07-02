@@ -23,17 +23,17 @@ session_start();
 	<!-- SIDEBAR -->
 	<section id="sidebar">
 		<a href="#" class="brand">
-			<i class='bx bxs-home'></i>
+			<!--<i class='bx bxs-smile'></i>-->
 			<span class="text">GABI Company lmt</span>
 		</a>
 		<ul class="side-menu top">
-			<li class="active">
+			<li>
 				<a href="dashboard.php">
 					<i class='bx bxs-dashboard' ></i>
 					<span class="text">Dashboard</span>
 				</a>
 			</li>
-            <li>
+            <li class="active">
 				<a href="orders.php">
 					<i class='bx bxs-shopping-bag-alt' ></i>
 					<span class="text">Orders</span>
@@ -97,12 +97,10 @@ session_start();
 			<a href="#" class="nav-link">Categories</a>
 			<form action="#">
 				<div class="form-input">
-					<input type="search" placeholder="Search...">
+					<!--<input type="search" placeholder="Search...">-->
 					<button type="submit" class="search-btn"><i class='bx' ></i></button>
 				</div>
 			</form>
-
-			
 			<input type="checkbox" id="switch-mode" hidden>
 			<label for="switch-mode" class="switch-mode"></label>
 			<a href="#" class="notification">

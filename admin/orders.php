@@ -1,7 +1,7 @@
-<?php include('header_sidemenu.php'); ?>
+<?php include('header_sidemenuOrder.php'); ?>
+
 
 <?php include('../server/connection.php'); ?>
-
 <?php
 //protecting this page
 	if(!isset($_SESSION['admin_logged_in'])){

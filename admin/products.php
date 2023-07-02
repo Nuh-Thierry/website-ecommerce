@@ -1,4 +1,4 @@
-<?php include('header_sidemenu.php'); ?>
+<?php include('header_sidemenuProduct.php'); ?>
 
 <?php include('../server/connection.php'); ?>
 
